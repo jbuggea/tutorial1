@@ -1,0 +1,35 @@
+body {
+
+  background-image: url('http://d3ciwvs59ifrt8.cloudfront.net/659f5af9-aafa-4d86-a915-a7ff68e829af/bd71368e-ef08-4671-a4f7-298eba4ca70f_h.jpg');
+}
+
+h1 {
+  margin:10px auto;
+  color: white;
+  max-width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 40px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#toppings {
+
+  margin:10px auto;
+  color: white;
+  max-width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#pizza-order {
+
+  margin:10px auto;
+  color: white;
+  max-width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.Submit {
+
+  font-size: 24px;
+}

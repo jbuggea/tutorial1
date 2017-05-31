@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PIZZA SHOP</title>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<form id="pizza-order" action="/order" method="post">
+	  First name:<br>
+	  <input type="text" name="firstname" required><br>
+	 	Email:<br>
+	  <input type="email" name="email" required>
+
+
+	  <fieldset>
+	  <legend class="hello"> Pizza Size </legend>
+	  <div><label> <input type=radio name=size value=small> Small </label></div>
+	  <div><label> <input type=radio name=size value=medium> Medium </label></div>
+	  <div><label> <input type=radio name=size value=large> Large </label></div>
+	  </fieldset>
+	    <fieldset>
+	  <legend> Pizza Style </legend>
+	  <div><label> <input type=radio name=style value=thin> Thin </label></div>
+	  <div><label> <input type=radio name=style value=thick> Thick </label></div>
+	  </fieldset>
+	  <fieldset>
+	  	<legend>Pizza Type</legend>
+	  	<select name="type">
+  				<option value="margherita">Margerita</option>
+  				<option value="marinara">Marinara</option>
+  				<option value="hawaiian">Hawaiian</option>
+  				<option value="meatball">Meatball</option>
+			</select>
+	  </fieldset>
+	  <fieldset id="toppings">
+	  	<legend>Extra Toppings: If you want, choose some extra toppings. We will charge you 0.25 each</legend>
+	  	<input type="checkbox" name="toppings" value="mozzarella"> Mozzarella <br>
+  		<input type="checkbox" name="toppings" value="salami"> Salami<br>
+  		<input type="checkbox" name="toppings" value="peppers"> Peppers <br>
+  		<input type="checkbox" name="toppings" value="cream"> Cream<br>
+  		<input type="checkbox" name="toppings" value="cheddar"> Cheddar <br>
+  		<input type="checkbox" name="toppings" value="onions"> Onions<br>
+	  </fieldset>
+
+	  <button type="submit">Submit</button>
+
+</form>
+<script src="index.js"></script>
+</body>
+</html>
